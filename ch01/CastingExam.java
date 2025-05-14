@@ -3,18 +3,18 @@ package ch01;
 public class CastingExam {
 
 	public static void main(String[] args) {
-		// °­Á¦Å¸ÀÔº¯È¯ (Casting)
-		// Å« Å©±âÀÇ Å¸ÀÔÀº ÀÛÀº Å©±â¿¡ Å¸ÀÔÀ¸·Î ÀÚµ¿º¯È¯ ÇÒ ¼ö ¾ø´Ù.
-		// int(21¾ï) > byte Å¸ÀÔÀ¸·Î ´ãÀ¸¸é ´©¼ö°¡ ¹ß»ýÇÑ´Ù.
-		// ÀÌ°ÍÀ» ´©¼ö°¡ ¹ß»ýÇØµµ °­Á¦·Î Àû¿ëÇÏ´Â ¹æ¹ýÀ» °­Á¦Å¸ÀÔº¯È¯ ÀÌ¶ó°íÇÑ´Ù.
+		// ê°•ì œíƒ€ìž…ë³€í™˜ (Casting)
+		// í° í¬ê¸°ì˜ íƒ€ìž…ì€ ìž‘ì€ í¬ê¸°ì— íƒ€ìž…ìœ¼ë¡œ ìžë™ë³€í™˜ í•  ìˆ˜ ì—†ë‹¤.
+		// int(21ì–µ) > byte íƒ€ìž…ìœ¼ë¡œ ë‹´ìœ¼ë©´ ëˆ„ìˆ˜ê°€ ë°œìƒí•œë‹¤.
+		// ì´ê²ƒì„ ëˆ„ìˆ˜ê°€ ë°œìƒí•´ë„ ê°•ì œë¡œ ì ìš©í•˜ëŠ” ë°©ë²•ì„ ê°•ì œíƒ€ìž…ë³€í™˜ ì´ë¼ê³ í•œë‹¤.
 		
 		int intValue = 123456789 ;
-		byte byteValue = (byte) intValue ; // () °­Á¦·Î byte Å¸ÀÔÀ¸·Î º¯È¯
+		byte byteValue = (byte) intValue ; // () ê°•ì œë¡œ byte íƒ€ìž…ìœ¼ë¡œ ë³€í™˜
 		// Type mismatch: cannot convert from int to byte
 		
-		System.out.println("int Å¸ÀÔ°ª Ãâ·Â : " + intValue);
-		System.out.println("byte Å¸ÀÔ°ª Ãâ·Â : " + byteValue);
-		// byteÅ¸ÀÔÀÇ 8bit¸¦ ¸¸µé°í ¾Õ¿¡°ªÀ» ³¯·Á¹ö¸².
+		System.out.println("int íƒ€ìž…ê°’ ì¶œë ¥ : " + intValue);
+		System.out.println("byte íƒ€ìž…ê°’ ì¶œë ¥ : " + byteValue);
+		// byteíƒ€ìž…ì˜ 8bitë¥¼ ë§Œë“¤ê³  ì•žì—ê°’ì„ ë‚ ë ¤ë²„ë¦¼.
 		// 111010110111100110100010101
         //                  > 00010101 <
 		
@@ -23,17 +23,17 @@ public class CastingExam {
         int mat = 97;
         
         int total = kor + eng + mat;
-        System.out.println("------¼ºÀûÇ¥------");
-        System.out.println("±¹¿µ¼ö ÃÑÁ¡ : " + total);
+        System.out.println("------ì„±ì í‘œ------");
+        System.out.println("êµ­ì˜ìˆ˜ ì´ì  : " + total);
         
-        double avg = total / 3 ; // ÀÚµ¿Å¸ÀÔ º¯È¯µÊ.
-        System.out.println("Æò±ÕÁ¡¼ö : " + avg ) ;
-        // ¹®Á¦ : ¾î¶²°ªÀ» °è»êÇØµµ ¼Ò¼öÁ¡ÀÌ 0À¸·Î ³ª¿È
-        // ÀÌÀ¯ : intÅ¸ÀÔ totalÀÌ 3À¸·Î ³ª´©¾îÁü
-        // ÇØ°á : double Å¸ÀÔÀ¸·Î °­Á¦Å¸ÀÔº¯È¯ ÈÄ 3À¸·Î ³ª´²¾ßÇÔ
+        double avg = total / 3 ; // ìžë™íƒ€ìž… ë³€í™˜ë¨.
+        System.out.println("í‰ê· ì ìˆ˜ : " + avg ) ;
+        // ë¬¸ì œ : ì–´ë–¤ê°’ì„ ê³„ì‚°í•´ë„ ì†Œìˆ˜ì ì´ 0ìœ¼ë¡œ ë‚˜ì˜´
+        // ì´ìœ  : intíƒ€ìž… totalì´ 3ìœ¼ë¡œ ë‚˜ëˆ„ì–´ì§
+        // í•´ê²° : double íƒ€ìž…ìœ¼ë¡œ ê°•ì œíƒ€ìž…ë³€í™˜ í›„ 3ìœ¼ë¡œ ë‚˜ëˆ ì•¼í•¨
        
-        avg = (float)total / 3 ; // °­Á¦Å¸ÀÔ º¯È¯µÊ.
-        System.out.println("Æò±ÕÁ¡¼ö : " + avg ) ;
+        avg = (float)total / 3 ; // ê°•ì œíƒ€ìž… ë³€í™˜ë¨.
+        System.out.println("í‰ê· ì ìˆ˜ : " + avg ) ;
 		
 	}
 

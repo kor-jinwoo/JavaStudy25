@@ -3,11 +3,11 @@ package ch01;
 public class ConditionalExam {
 
 	public static void main(String[] args) {
-	
-		int score = 95; // ½ºÄÚ¾î
+		
+		int score = 95; // ìŠ¤ì½”ì–´
 		char grade = (score>90)? 'A' : (score>80)? 'B' : 'C';
-	       // ½ºÄÚ¾î°¡ 90Á¡º¸´Ù ³ôÀ¸¸é A    // ½ºÄÚ¾î°¡ 80Á¡º¸´Ù ³ôÀ¸¸éB ³·À¸¸éC
-		System.out.println(score + "Á¡Àº" + grade + "µî±ŞÀÔ´Ï´Ù.");
+	       // ìŠ¤ì½”ì–´ê°€ 90ì ë³´ë‹¤ ë†’ìœ¼ë©´ A    // ìŠ¤ì½”ì–´ê°€ 80ì ë³´ë‹¤ ë†’ìœ¼ë©´B ë‚®ìœ¼ë©´C
+		System.out.println(score + "ì ì€" + grade + "ë“±ê¸‰ì…ë‹ˆë‹¤.");
 		
 
 		

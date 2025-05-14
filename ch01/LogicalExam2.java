@@ -11,19 +11,19 @@ public class LogicalExam2 {
 		
 		Scanner abc = new Scanner(System.in);
 		
-		System.out.print("¾ÆÀÌµğÀÔ·Â:");
+		System.out.print("ì•„ì´ë””ì…ë ¥:");
 		String id1 = abc.nextLine();
-		System.out.println("ÀÔ·Â¿Ï·á");
+		System.out.println("ì…ë ¥ì™„ë£Œ");
 		
-		System.out.println("ºñ¹Ğ¹øÈ£ÀÔ·Â:");
+		System.out.println("ë¹„ë°€ë²ˆí˜¸ì…ë ¥:");
 		String pw1 = abc.nextLine();
-		System.out.println("ÀÔ·Â¿Ï·á");
+		System.out.println("ì…ë ¥ì™„ë£Œ");
 		
 		if((id.equals(id1)) & pw.equals(pw1)){
-			System.out.println("·Î±×ÀÎ¼º°ø");
+			System.out.println("ë¡œê·¸ì¸ì„±ê³µ");
 			
 		} else { 
-			System.out.println("¾ÆÀÌµğ ¶Ç´Â ÆĞ½º¿öµå ºÒÀÏÄ¡");
+			System.out.println("ì•„ì´ë”” ë˜ëŠ” íŒ¨ìŠ¤ì›Œë“œ ë¶ˆì¼ì¹˜");
 			
 			abc.close();
 			

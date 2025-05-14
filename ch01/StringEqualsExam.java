@@ -4,9 +4,9 @@ public class StringEqualsExam {
 
 	public static void main(String[] args) {
 		
-	String strval1 = "±èÁø¿ì";
-	String strval2 = "±èÁø¿ì";
-	String strval3 = new String("±èÁø¿ì");
+	String strval1 = "ê¹€ì§„ìš°";
+	String strval2 = "ê¹€ì§„ìš°";
+	String strval3 = new String("ê¹€ì§„ìš°");
 		
 	System.out.println(strval1 == strval2);
 	System.out.println(strval1 == strval3);

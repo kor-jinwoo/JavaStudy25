@@ -3,10 +3,10 @@ package ch01;
 public class IntToDoubleExam {
 
 	public static void main(String[] args) {
-		// intÅ¸ÀÔ°ú floatÅ¸ÀÔÀº °°Àº32bit¸¦ »ç¿ëÇÏÁö¸¸
-		// floatÀÌ ¼Ò¼öÁ¡À» »ç¿ëÇÏ±â ¶§¹®¿¡ °ª¿¡ º¯Á¶°¡ ÀÏ¾î³²
+		// intíƒ€ì…ê³¼ floatíƒ€ì…ì€ ê°™ì€32bitë¥¼ ì‚¬ìš©í•˜ì§€ë§Œ
+		// floatì´ ì†Œìˆ˜ì ì„ ì‚¬ìš©í•˜ê¸° ë•Œë¬¸ì— ê°’ì— ë³€ì¡°ê°€ ì¼ì–´ë‚¨
 		
-		// floatº¸´Ù Å« double¸¦ »ç¿ëÇÏ¿© ÇØ°á ÇØº¸ÀÚ.
+		// floatë³´ë‹¤ í° doubleë¥¼ ì‚¬ìš©í•˜ì—¬ í•´ê²° í•´ë³´ì.
 		
 		int num1 = 123456780;
 		int num2 = 123456780;
@@ -19,7 +19,7 @@ public class IntToDoubleExam {
 		System.out.println("num3 : " + num3);
 		
 		int result = num1 - num2;
-		System.out.println("floatÀ¸·Î ´Ù³à¿Â ÈÄ num2 °ª º¯°æµÊ.");
+		System.out.println("floatìœ¼ë¡œ ë‹¤ë…€ì˜¨ í›„ num2 ê°’ ë³€ê²½ë¨.");
 		System.out.println("num1 - num2 : " + result);
 
 	}

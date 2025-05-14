@@ -6,16 +6,16 @@ public class A {
 		
 		int num1 = 10;
 		int num2 = 11;
-		boolean result1 = (num1 == num2); // °°ÀºÁö °Ë»ç
-		boolean result2 = (num1 != num2); // ´Ù¸¥Áö °Ë»ç
-		boolean result3 = (num1 <= num2); // °°°Å³ª ´Ù¸¥Áö °Ë»ç
+		boolean result1 = (num1 == num2); // ê°™ì€ì§€ ê²€ì‚¬
+		boolean result2 = (num1 != num2); // ë‹¤ë¥¸ì§€ ê²€ì‚¬
+		boolean result3 = (num1 <= num2); // ê°™ê±°ë‚˜ ë‹¤ë¥¸ì§€ ê²€ì‚¬
 		
 		System.out.println("result1 : " + result1);
 		System.out.println("result2 : " + result2);
 		System.out.println("result3 : " + result3);
 		
-		char char1 = 'A'; // int"65"ÀÇ°ª
-		char char2 = 'B'; // int"66"ÀÇ°ª
+		char char1 = 'A'; // int"65"ì˜ ê°’
+		char char2 = 'B'; // int"66"ì˜ ê°’
 		boolean result4 = (char1 < char2); // true
 		System.out.println("result4 : " + result4);
 		
