@@ -25,6 +25,7 @@ public class UpDownExam {
 		System.out.println(" ");
 		System.out.println("정답입니다.");
 		
+		scanner.close();
 
 	}
 

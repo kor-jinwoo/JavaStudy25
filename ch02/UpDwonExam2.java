@@ -44,6 +44,8 @@ public class UpDwonExam2 {
 				System.out.println("이벤트실패! 다음기회는 없습니다ㅋ");
 			} // do while 문 종료
 			
+			infut.close();
+			
 		} // 메서드 종료
 		
 	} // 클래스 종료
